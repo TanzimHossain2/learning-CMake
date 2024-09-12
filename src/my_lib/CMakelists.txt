@@ -1,0 +1,2 @@
+add_library(Libary STATIC my_lib.cc)
+target_include_directories(Libary PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
