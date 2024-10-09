@@ -10,3 +10,24 @@
 - 5. Build the project:  ``` cmake --build . ```
 - 6.  Navigate to the build directory:  ``` cd app ```
 - 7. Run the project:  ``` ./CppProjectTemplate ```
+
+
+```
+
+rm -rf build/*
+cmake -S . -B build
+cmake --build build
+
+```
+
+## Prepare 
+
+``` 
+make prepare
+```
+
+## Run 
+
+```
+make run
+```
